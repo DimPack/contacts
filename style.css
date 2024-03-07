@@ -1,0 +1,72 @@
+/*
+*, body, other tags
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  color: blue;
+  font-size: 14px;
+  font-family: serif;
+}
+a {
+  color: inherit;
+}
+.main-article {
+  width: 80%;
+  padding: 10px;
+
+  border: 2px dotted pink;
+  border-radius: 15px;
+
+  margin: auto;
+
+  color: firebrick;
+
+  text-align: center;
+
+  font-size: 1.5em;
+  font-style: italic;
+}
+.main-article-heading {
+  width: 50%;
+  padding: 0.7em 10%;
+  margin: auto;
+
+  border: inherit;
+  border-radius: inherit;
+
+  background-color: aqua;
+
+  font-family: initial;
+}
+.first-letter {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.main-article-content {
+  line-height: 1.2;
+}
+.main-article-pic {
+  /*block-model*/
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 5px double blue;
+  border-radius: 50%;
+  margin: 20px;
+  /*background*/
+  background-color: wheat;
+  /*object-**/
+  object-fit: cover;
+  object-position: left;
+}
+.main-article-blockquote {
+  padding: inherit; /*  padding: 10px;*/
+  border: inherit;
+  border-radius: inherit;
+  /* color: initial; */
+}
+.initial-align {
+  text-align: initial;
+}
